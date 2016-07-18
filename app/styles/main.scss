@@ -1,0 +1,501 @@
+$icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+//  fonts  ///////////////////////////////
+@font-face {
+font-family: Moon;
+src: url("/fonts/Moon Light.otf") format("opentype");
+}
+
+@font-face {
+font-family: Moon;
+font-weight: bold;
+src: url("/fonts/Moon Bold.otf") format("opentype");
+}
+
+@font-face {
+font-family: Kollektif;
+src: url("/fonts/Kollektif.ttf") format("truetype");
+}
+@font-face {
+font-family: CooperHewitt;
+src: url("/fonts/CooperHewitt-Book.otf") format("opentype");
+}
+//  endfonts  ///////////////////////////////
+// NAV ///////////////////////////////
+.nav {
+  position:relative;
+  top:665px;
+    li {
+  display: inline-block;
+    }
+    a {
+    padding-left:20px;
+    padding-right:20px;
+    }
+}
+.nav > li > a:hover, .nav > li > a:focus,{
+  background-color: transparent;
+  color:rgba(233,85,66,1);
+  font-weight:bold;
+}
+// ENDNAV ///////////////////////////////
+.container-fluid {
+  background-color:rgba(31,31,31,1);
+  height:900px;
+}
+// FONT CLASSES ///////////////////////////////
+.moonbold {
+  color:white;
+  font-family:Moon;
+  font-weight:bold;
+}
+.moonlight {
+  color:white;
+  font-family:Moon;
+}
+// END FONT CLASSES ///////////////////////////////
+// HOME ///////////////////////////////////
+a {
+  color:white;
+}
+img {
+  width:400px;
+  height:400px;
+}
+
+a:hover {
+  background-color:none;
+  color:rgba(233,85,66,1);
+}
+.subtitle {
+  position:relative;
+  top:85px;
+}
+.title {
+  position:relative;
+  top:85px;
+}
+.paraheader {
+  font-family:"Moon";
+  font-weight:bold;
+  color:rgba(233,85,66,1);
+}
+.paraemphasis {
+  font-family:moon;
+  font-weight:bold;
+  color:rgba(233,85,66,1);
+}
+// ENDHOME /////////////////////////////
+// ABOUT ///////////////////////////////
+#redabout {
+  color:white;
+  background-color:rgba(233,85,66,1);
+  height:900px;
+}
+#whiteabout {
+  background-color:white;
+  height:900px;
+  overflow-y:scroll;
+}
+.abouttitle {
+  position:relative;
+  top:450px;
+  font-size:72px;
+  z-index:2;
+}
+#aboutpattern {
+  position:relative;
+  top:200px;
+  z-index:1;
+}
+.personal {
+  font-family: "CooperHewitt";
+  padding-left:30px;
+  padding-right:30px;
+  position:relative;
+  top:275px;
+  z-index:1;
+}
+#personal2 {
+  position:relative;
+  top:304px;
+  z-index:1;
+}
+#personal3 {
+  position:relative;
+  top:332px;
+  z-index:1;
+}
+.aboutplacement {
+  position:relative;
+  bottom:175px;
+}
+#familiar {
+  z-index:1;
+  position:relative;
+  top:355px;
+  left:30px;
+}
+#proficient {
+  z-index:1;
+  position:relative;
+  top:361px;
+  left:30px;
+}
+#proficientlist  {
+  position:relative;
+  top:355px;
+  list-style-type:none;
+  font-family:moon;
+  font-weight:bold;
+  left:-10px;
+}
+#familiarlist {
+  position:relative;
+  top:350px;
+  list-style-type:none;
+  font-family:moon;
+  font-weight:bold;
+  left:-10px;
+}
+.listplacement {
+  position:relative;
+  bottom:10px;
+}
+// ENDABOUT ////////////////////////////////
+// WORK ////////////////////////////////////
+#whitework {
+  height:900px;
+  background-image: url("/images/wrigley.jpg");
+}
+#redwork {
+    overflow-y:scroll;
+    height:900px;
+}
+#whitework:hover #whiteworkarrow {
+  color:white;
+}
+// WORK PANEL 1 //
+#whiteworktitle2 {
+  color:white;
+  font-family:moon;
+  font-size:48px;
+  text-align:center;
+  position:relative;
+  top:400px;
+  left: 15px;
+  font-weight:bold;
+}
+#whiteworkarrow {
+  color:#e95542;
+  font-size:48px;
+  position:relative;
+  top:67px;
+  right:166px;
+          -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+// WORK PANEL 2 //
+#redworktitle2 {
+  color:white;
+  font-family:moon;
+  font-size:24px;
+  text-align:center;
+  position:relative;
+  bottom:125px;
+  left: 15px;
+  font-weight:bold;
+}
+#redwork2 {
+  background-color:rgba(233,85,66,1);
+  background-image:url("/images/wherehave.jpg");
+  height:300px;
+  border-style:solid;
+  border-width:2px;
+  border-color:white;
+  padding-top:254px;
+}
+#arrow2 {
+  position:relative;
+    color:rgba(233,85,66,1);
+
+top:45px;
+right:170px;
+font-size:24px;
+
+        -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+#redwork2:hover #arrow2 {
+  color:White;
+}
+
+// WORK PANEL 3 //
+#redwork3 {
+ background-color:rgba(233,85,66,1);
+ background-image:url("/images/nwweather.jpg");
+  height:300px;
+  border-style:solid;
+  border-width:2px;
+  border-color:white;
+  padding-top:228px;
+}
+#redworktitle3 {
+  color:white;
+  font-family:moon;
+  font-size:24px;
+  text-align:center;
+  position:relative;
+  bottom:125px;
+  left: 15px;
+  font-weight:bold;
+}
+#arrow3 {
+  position:relative;
+    color:rgba(233,85,66,1);
+
+top:45px;
+right:100px;
+font-size:24px;
+
+        -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+#redwork3:hover #arrow3 {
+  color:White;
+}
+// WORK PANEL 4 //
+#redwork4 {
+ background-color:rgba(233,85,66,1);
+ background-image:url("/images/csszen.jpg");
+  height:300px;
+  border-style:solid;
+  border-width:2px;
+  border-color:white;
+  padding-top:228px;
+}
+#redworktitle4 {
+  color:white;
+  font-family:moon;
+  font-size:24px;
+  text-align:center;
+  position:relative;
+  bottom:125px;
+  left: 15px;
+  font-weight:bold;
+}
+#arrow4 {
+  position:relative;
+    color:rgba(233,85,66,1);
+
+top:45px;
+right:118px;
+font-size:24px;
+
+        -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+#redwork4:hover #arrow4 {
+  color:White;
+}
+// WORK PANEL 5 //
+#redwork5 {
+   background-color:rgba(233,85,66,1);
+    background-image:url("/images/apisuperstore.jpg");
+  height:300px;
+  border-style:solid;
+  border-width:2px;
+  border-color:white;
+  padding-top:228px;
+}
+#redworktitle5 {
+  color:white;
+  font-family:moon;
+  font-size:24px;
+  text-align:center;
+  position:relative;
+  bottom:125px;
+  left: 15px;
+  font-weight:bold;
+}
+#arrow5 {
+  position:relative;
+    color:rgba(233,85,66,1);
+
+top:45px;
+right:118px;
+font-size:24px;
+
+        -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+#redwork5:hover #arrow5 {
+  color:White;
+}
+
+//////////////////////
+.worktitle {
+  color:white;
+  font-size:72px;
+  position:relative;
+  top:420px;
+  z-index:1;
+}
+#arrow1 {
+  position:relative;
+    color:rgba(233,85,66,1);
+
+top:45px;
+right:160px;
+font-size:24px;
+
+        -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+#circle {
+    height: 100px;
+  background: red;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+}
+// ENDWORK ///////////////////////////////
+// CONTACT ///////////////////////////////
+#redcontact {
+background-color:rgba(233,85,66,1);
+  height:900px;
+}
+#whitecontact {
+  background-color:white;
+  height:900px;
+}
+#contactpattern{
+  position:relative;
+  top:225px;
+}
+// .contactimg {
+//   width:100px;
+//   height:100px;
+//   margin:25px;
+//   position:relative;
+//   top:350px;
+// }
+#linkedin {
+  background-image: url('/images/linkedin.jpg');
+          -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+#insta {
+  background-image: url('/images/insta.jpg');
+            -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+#behance {
+  background-image: url('/images/behance.jpg');
+            -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+#linkedin:hover {
+  background-image: url('/images/linkedin2.jpg')
+}
+#insta:hover {
+  background-image: url('/images/insta2.jpg');
+}
+#behance:hover {
+  background-image: url('/images/behance2.jpg');
+}
+.contactimg {
+  width:100px;
+  height:100px;
+  margin:10px;
+  display:inline-block;
+  position:relative;
+  top:350px;
+}
+// ENDCONTACT ///////////////////////////////
+// IMG //////////////////////////////////////
+#jack {
+  position:relative;
+  top:100px;
+}
+#workimg1 {
+  position:relative;
+  top:-112px;
+  right:30px;
+  width:auto;
+  height:900px;
+  opacity:0.8;
+}
+#workimg2 {
+  position:relative;
+  top:0px;
+  width:100%;
+  opacity:1;
+  background-color:rgba(233,85,66,1);
+  height:296px;
+
+
+    -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+// #workimg2:hover {
+// -webkit-filter:blur(2px);
+// opacity:1;
+// }
+.htmlcssjs {
+  position:relative;
+  top:15px;
+  right:-7px;
+  z-index:0;
+  clip:rect(0px,60px,100px,0px);
+}
+.sassjquery {
+position:relative;
+top:380px;
+left:10px;
+}
+// ENDIMG /////////////////////////
+.red {
+  color:rgba(233,85,66,1);
+  font-weight:bold;
+}
+a {
+  text-decoration:none;
+}
+a:hover {
+  text-decoration:none;
+}
